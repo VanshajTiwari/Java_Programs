@@ -25,7 +25,7 @@ public class Mazepath_D {
             System.out.println();
     }
 
-    public static void main(String Ayushi[]) {
+    public static void main(String args[]) {
         Scanner input = new Scanner(System.in);
         // Your Code Here
 
