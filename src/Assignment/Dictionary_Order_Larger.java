@@ -14,7 +14,8 @@ public class Dictionary_Order_Larger {
        System.out.println(result);
        for(int i=0;i<result.size();i++){
            if(result.get(i).equals(abc)){
-               System.out.println(result.get(i+1));
+               if(i+1<result.size()-1)
+                System.out.println(result.get(i+1));
            }
        }
     }
